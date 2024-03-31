@@ -18,7 +18,7 @@ export function Main() {
               font.className
             )}
           >
-            <span >We disco</span><span className="hidden sm:inline-block">,</span><span className="text-yellow-300 sm:ml-2">We drive</span>
+            <span >We discover</span><span className="hidden sm:inline-block">,</span><span className="text-yellow-300 sm:ml-2">We drive</span>
           </h1>
           <h4
             className={cn("font-extralight text-lg sm:text-3xl", font.className)}
