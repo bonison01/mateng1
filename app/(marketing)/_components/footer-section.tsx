@@ -21,9 +21,6 @@ export const Footer = ({ currentPage }: { currentPage?: string }) => {
             Privacy Policy
           </a>
           </a>
-          <a href="/Vendors" className="hover:underline">
-            Vendors
-          </a>
         </div>
         <div className="flex justify-center items-center">
           <Link href={facebook}>
