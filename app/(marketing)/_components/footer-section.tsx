@@ -20,9 +20,6 @@ export const Footer = ({ currentPage }: { currentPage?: string }) => {
           <a href="/privacy-policy" className="hover:underline">
             Privacy Policy
           </a>
-          <a href="/Vendors" className="hover:underline">
-            Vendors
-          </a>
         </div>
         <div className="flex justify-center items-center">
           <Link href={facebook}>
