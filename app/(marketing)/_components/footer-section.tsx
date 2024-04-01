@@ -15,10 +15,14 @@ export const Footer = ({ currentPage }: { currentPage?: string }) => {
             href="/about-us"
             className="hover:underline me-4 md:me-6 md:ml-2 uppercase"
           >
-            ABOUT US
+            About
           </a>
           <a href="/privacy-policy" className="hover:underline">
             Privacy Policy
+          </a>
+          </a>
+          <a href="/Vendors" className="hover:underline">
+            Vendors
           </a>
         </div>
         <div className="flex justify-center items-center">
@@ -36,6 +40,8 @@ export const Footer = ({ currentPage }: { currentPage?: string }) => {
           </Link>
         </div>
       </div>
+
+
       {currentPage && (
         <div className="max-w-[90vw] w-[350px] sm:w-[500px] text-[0.5rem] text-center leading-[10px]">
           Icon attributions.{" "}
@@ -67,6 +73,8 @@ export const Footer = ({ currentPage }: { currentPage?: string }) => {
               </a>{" "}
             </>
           )}
+
+          
           {currentPage === "services" && (
             <>
               {/* this icons are used in our service page */}
