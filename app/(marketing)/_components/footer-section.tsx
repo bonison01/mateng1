@@ -15,7 +15,7 @@ export const Footer = ({ currentPage }: { currentPage?: string }) => {
             href="/about-us"
             className="hover:underline me-4 md:me-6 md:ml-2 uppercase"
           >
-            About us
+            About
           </a>
           <a href="/privacy-policy" className="hover:underline">
             Privacy Policy
